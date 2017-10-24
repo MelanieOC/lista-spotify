@@ -5,3 +5,34 @@
   width: 100%;
   background-image: linear-gradient(rgb(129, 43, 23), rgb(12, 4, 2) 85%);
 }
+
+.list{
+  padding: 5px;
+  color: white;
+}
+
+.list:hover{
+  background: #2b231b;
+  opacity: 0.75;
+}
+li {
+    list-style: none;
+}
+
+.list #play{
+ display: none;
+}
+.list:hover #play{
+ display: block;
+}
+
+.id, .titulo, .duracion{
+ float: left; 
+ margin: 20px;
+}
+
+.duracion{
+  text-align: right;
+  position: absolute;
+  right: 10px;
+}
