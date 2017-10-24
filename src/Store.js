@@ -61,73 +61,85 @@ let playlist = [
         title: "Someday - Radio Mix",
         artist: "Rakka, Victor Olivatti",
         album: "Someday (Radio Mix)",
-        duration: "3:20"
+        duration: "3:20",
+        src: "https://open.spotify.com/embed/track/5xTQnsFh1IeQjCwhpZNb6P" 
     },
     {
         title: "Make Me Wanna",
         artist: "Selva, Zerky",
         album: "Alok presents Brazilian Bass - Part 1",
-        duration: "2:53"
+        duration: "2:53",
+        src: "https://open.spotify.com/embed/track/4O50bT2bZXNSBlaEbLewjq"
     },
     {
         title: "Too Close",
         artist: "Ghostt, Radiomatik",
         album: "Too Close",
-        duration: "3:44"
+        duration: "3:44",
+        src: "https://open.spotify.com/embed/track/36jWNNLzKKKlWYArwm2yim"
     },
     {
         title: "Monday",
         artist: "Vintage Culture, Felguk, Le Dib",
         album: "Monday",
-        duration: "3:11"
+        duration: "3:11",
+        src: "https://open.spotify.com/embed/track/4XmeDoWEMBG6Km2Ts6brCt"
     },
     {
         title: "Feelings",
         artist: "El Baile, James Ty ",
         album: "Feelings",
-        duration: "3:30"
+        duration: "3:30",
+        src: "https://open.spotify.com/embed/track/46mmswGEhYJcqRG7LjehLA"
     },
     {
         title: "23 as 5",
         artist: "E-Cologyk, Phillip Nutt, Nith",
         album: "23 as 5",
-        duration: "2:53"
+        duration: "2:53",
+        src: "https://open.spotify.com/embed/track/48eDZ4XWpVtdJ4KL9COzll"
     },
     {
         title: "Illusion",
         artist: "Jord, Santti",
         album: "Illusion",
-        duration: "3:12"
+        duration: "3:12",
+        src: "https://open.spotify.com/embed/track/3IL6t7X9IH0CmwoqSJeX9J"
     },
     {
         title: "Human (Remix)",
         artist: "Vintage Culture, Bruno Be, Manimal",
         album: "Human (Remix)",
-        duration: "3:31"
+        duration: "3:31", 
+        src: "https://open.spotify.com/embed/track/0bVp6yZEUrJzOm2agoFYZm"
     },
     {
         title: "Not the Right Guy - Radio Mix",
         artist: "Subb, Livit",
         album: "Not the Right Guy",
-        duration: "3:04"
+        duration: "3:04",
+        src: "https://open.spotify.com/embed/track/5qKsOwqpwg1s8gvYpnR8Fl"
     },
     {
         title: "Memories of You",
         artist: "Bhaskar, Yves Paquet",
         album: "Memories of You",
-        duration: "3:45"
+        duration: "3:45",
+        src: "https://open.spotify.com/embed/track/7yLCJHh9fuaiMgcV4TlXLr" 
     },
     {
         title: "Heavy Dirty Soul",
         artist: "Bruno Be",
         album: "Heavy Dirty Soul",
-        duration: "3:30"
+        duration: "3:30",
+        src: "https://open.spotify.com/embed/track/7CdDBSaHDOlp6hSPpsmS1a"
     },
     {
         title: "Uma Noite e 1/2",
         artist: "Jetlag Music, Thaeme",
         album: "Uma Noite e 1/2",
-        duration: "5:14"
+        duration: "5:14", 
+        src: "https://open.spotify.com/embed/track/0XcuBfglpHdhOoIdaSEjAv"
     },
 
 ];
