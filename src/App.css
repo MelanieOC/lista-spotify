@@ -1,34 +1,37 @@
-.App{
+body{
   text-align: center;
-  position: absolute;
-  height: 100%;
-  width: 100%;
   background-image: linear-gradient(rgb(129, 43, 23), rgb(12, 4, 2) 85%);
+  background-size: contain;
 }
-
 .list{
-  padding: 5px;
   color: white;
+  width: 100%;
+  display: flex;
 }
-
 .list:hover{
   background: #2b231b;
   opacity: 0.75;
 }
-li {
-    list-style: none;
+
+.play{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
 }
 
-.list #play{
+.list .play{
  display: none;
 }
-.list:hover #play{
+.list:hover .play{
  display: block;
 }
-
-.id, .titulo, .duracion{
- float: left; 
- margin: 20px;
+.list:hover .number{
+  display: none;
+ }
+.id, .titulo, .duracion{ 
+ margin: 15px;
 }
 
 .duracion{
