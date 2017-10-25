@@ -148,7 +148,9 @@ let playlist = [
 
 const initialState = {
     playlist: playlist,
-    currentIndex: 0
+    currentIndex: -1,
+    play:false,
+    follow: false
 };
 
 const store = createStore(initialState);
