@@ -1,4 +1,4 @@
-//import createStore from 'redux-zero';
+import createStore from 'redux-zero';
 
 let playlist = [
     {
@@ -144,13 +144,13 @@ let playlist = [
 
 ];
 
-/*console.log(playlist.length)
+
 
 const initialState = {
-    playlist: playlist
+    playlist: playlist,
+    currentIndex: 0
 };
 
 const store = createStore(initialState);
 
-export default store;*/
-export default playlist;
+export default store;
