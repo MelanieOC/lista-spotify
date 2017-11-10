@@ -3,7 +3,7 @@ import playlist from './Store.js';
 import Album from './Album.js';
 import List from './list.js'
 import { connect } from "redux-zero/react";
-import './App.css';
+import './css/main.css';
 
 const ListSpotify = ({ playlist, currentIndex, play, follow }) => {
   return (

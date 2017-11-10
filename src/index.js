@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './css/main.css';
 import ListSpotify from './App';
 import { Provider } from "redux-zero/react";
 import store from "./Store";

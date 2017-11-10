@@ -1,0 +1,85 @@
+.btn {
+  color: #fff !important;
+  margin-top: 1em;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  background-image: none;
+  border: 0;
+  border-radius: 500px;
+  padding: 13px;
+  letter-spacing: 2px;
+  min-width: 130px;
+  text-transform: uppercase;
+  line-height: 1.6;
+  outline: none !important; }
+
+.btn-green {
+  background-color: #1db954;
+  padding: 11px 44px 12px;
+  outline: none; }
+
+.btn-green:hover {
+  transform: scale(1.06);
+  transition-duration: .5s;
+  color: white; }
+
+.btn.btn-transparent {
+  background-color: transparent; }
+
+.songs {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: .73em;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.fondo {
+  background-image: linear-gradient(#812b17, #0c0402 85%);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  position: fixed;
+  will-change: transform; }
+
+.list {
+  color: white;
+  width: 100%;
+  display: flex; }
+
+.list:hover {
+  background: #2b231b;
+  opacity: 0.75; }
+
+.play {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0; }
+
+.green {
+  color: #1db954; }
+
+.list .play {
+  display: none; }
+
+.list:hover .play {
+  display: block; }
+
+.list:hover .number {
+  display: none; }
+
+.id, .titulo, .duracion {
+  margin: 15px; }
+
+.duracion {
+  text-align: right;
+  position: absolute;
+  right: 10px; }
+
+/*# sourceMappingURL=main.css.map */

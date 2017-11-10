@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Album.css';
+import './css/main.css';
 import { changePlay, changeFollow } from './actions.js';
 
 const Album = ({ list, play, follow }) => {
