@@ -11,7 +11,7 @@ const ListSpotify = ({LIST, playlist, currentIndex, play, follow }) => {
       <div className='playlist__fondo'></div>
       <div class="row playlist__body">
         <div class="col-md-3 col-lg-4">
-          <Album list={playlist.length} play={play} follow={follow} />
+          <Album list={LIST} play={play} follow={follow} />
         </div>
         <div className="col-md-9 col-lg-8 ">
           {

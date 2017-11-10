@@ -57,15 +57,10 @@
   height: 80px;
   border: none; }
 
-.green, .list:hover .list__number {
-  color: #1db954; }
-
 .list {
   color: #ffffff;
   width: 100%;
   display: flex; }
-  .list__id--green {
-    color: #1db954; }
   .list__id .list__play {
     background-color: transparent;
     border: none;
@@ -79,6 +74,8 @@
     text-align: right;
     position: absolute;
     right: 10px; }
+  .list--green {
+    color: #1db954; }
   .list:hover {
     background: #2b231b;
     opacity: 0.75; }
