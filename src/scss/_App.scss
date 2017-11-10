@@ -1,7 +1,7 @@
 @import '_variables.scss';
 
 .fondo{
-    background-image: linear-gradient(rgb(129, 43, 23), rgb(12, 4, 2) 85%);
+    background-image: linear-gradient($gradient1, $gradient2 $opacity);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -13,12 +13,12 @@
   }
   
   .list{
-    color: white;
+    color: $neutro;
     width: 100%;
     display: flex;
   }
   .list:hover{
-    background: #2b231b;
+    background: $dark;
     opacity: 0.75;
   }
   
@@ -30,7 +30,7 @@
     margin: 0;
   }
   .green{
-    color: #1db954;
+    color: $ligth;
   }
   .list .play{
    display: none;

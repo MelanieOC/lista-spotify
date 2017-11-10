@@ -1,7 +1,7 @@
 @import '_variables.scss';
 
 .btn {
-    color: #fff !important;
+    color: $neutro !important;
     margin-top: 1em;
     display: inline-block;
     margin-bottom: 0;
@@ -19,7 +19,7 @@
     outline: none !important;
 }
 .btn-green{
-    background-color: #1db954;
+    background-color: $ligth;
     padding: 11px 44px 12px;
     outline: none;
 }
