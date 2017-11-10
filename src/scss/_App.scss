@@ -5,6 +5,7 @@
 
 .playlist{
   color: $neutro;
+  padding-left: 200px;
   &__fondo{
     background-image: linear-gradient($gradient1, $gradient2 $opacity);
     height: 100vh;

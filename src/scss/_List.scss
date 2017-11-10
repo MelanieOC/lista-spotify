@@ -28,7 +28,7 @@
         opacity: 0.75;
         .list__number {
             display: none;
-            @extend .green;
+            color: $ligth;
         }
         .list__play {
             display: block;

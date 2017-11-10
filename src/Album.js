@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './css/main.css';
 import { changePlay, changeFollow } from './actions.js';
 

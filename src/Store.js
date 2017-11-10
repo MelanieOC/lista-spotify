@@ -151,7 +151,6 @@ const LIST = {
 
 const initialState = {
     LIST: LIST,
-    playlist: LIST.playlist,
     currentIndex: -1,
     play:false,
     follow: false

@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import playlist from './Store.js';
 import Album from './Album.js';
 import List from './list.js'
 import { connect } from "redux-zero/react";
 import './css/main.css';
 
-const ListSpotify = ({LIST, playlist, currentIndex, play, follow }) => {
+const ListSpotify = ({LIST, currentIndex, play, follow }) => {
   return (
     <div className="container playlist">
       <div className='playlist__fondo'></div>
@@ -15,7 +15,7 @@ const ListSpotify = ({LIST, playlist, currentIndex, play, follow }) => {
         </div>
         <div className="col-md-9 col-lg-8 ">
           {
-            playlist.map((a, index) => {
+            LIST.playlist.map((a, index) => {
               return <List title={a.title} artist={a.artist} duration={a.duration} index={index + 1} currentIndex={currentIndex} play={play} />;
             })
           }
@@ -28,5 +28,5 @@ const ListSpotify = ({LIST, playlist, currentIndex, play, follow }) => {
 }
 
 
-const mapToProps = ({ LIST, playlist, currentIndex, play, follow }) => ({ LIST, playlist, currentIndex, play, follow });
+const mapToProps = ({ LIST, currentIndex, play, follow }) => ({ LIST, currentIndex, play, follow });
 export default connect(mapToProps)(ListSpotify);
