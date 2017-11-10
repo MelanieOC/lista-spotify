@@ -144,9 +144,14 @@ let playlist = [
 
 ];
 
-
+const LIST = {
+    name: 'ELECTRO BR',
+    by: 'Spotify',
+    image: 'https://i.scdn.co/image/8fceebd160a5efab9088f7a66e0555d70b44a520',
+}
 
 const initialState = {
+    LIST: LIST,
     playlist: playlist,
     currentIndex: -1,
     play:false,
