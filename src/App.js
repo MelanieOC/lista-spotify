@@ -5,7 +5,7 @@ import List from './list.js'
 import { connect } from "redux-zero/react";
 import './css/main.css';
 
-const ListSpotify = ({ playlist, currentIndex, play, follow }) => {
+const ListSpotify = ({LIST, playlist, currentIndex, play, follow }) => {
   return (
     <div className="container playlist">
       <div className='playlist__fondo'></div>
@@ -28,5 +28,5 @@ const ListSpotify = ({ playlist, currentIndex, play, follow }) => {
 }
 
 
-const mapToProps = ({ playlist, currentIndex, play, follow }) => ({ playlist, currentIndex, play, follow });
+const mapToProps = ({ LIST, playlist, currentIndex, play, follow }) => ({ LIST, playlist, currentIndex, play, follow });
 export default connect(mapToProps)(ListSpotify);
