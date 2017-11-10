@@ -35,28 +35,28 @@
   letter-spacing: 2px;
   text-transform: uppercase; }
 
+.playlist__fondo, .playlist__iframe {
+  width: 100%;
+  position: fixed; }
+
 .playlist {
   color: #ffffff; }
 
 .playlist__fondo {
   background-image: linear-gradient(#812b17, #0c0402 85%);
-  width: 100%;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   left: 0;
   top: 0;
-  position: fixed;
   will-change: transform; }
 
 .playlist__body {
   margin-top: 20px; }
 
 .playlist__iframe {
-  position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
   height: 80px;
   border: none; }
 
