@@ -22,7 +22,7 @@ const ListSpotify = ({LIST, currentIndex, play, follow }) => {
         </div>
       </div>   
       {play &&
-        <iframe src={playlist[currentIndex].src} className='playlist__iframe' allowtransparency="true"></iframe>}
+        <iframe src={LIST.playlist[currentIndex].src} className='playlist__iframe' allowtransparency="true"></iframe>}
     </div>
   );
 }
