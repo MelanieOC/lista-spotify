@@ -7,7 +7,6 @@ const List = ({ title, artist, duration, index, currentIndex, play }) => {
     return (
       <div class="list">
         <div className={comparar ? 'id green' : 'id'}>
-  
           {
             comparar && play ?
               <span className="glyphicon glyphicon-volume-up number green" aria-hidden="true"></span> :
@@ -23,7 +22,7 @@ const List = ({ title, artist, duration, index, currentIndex, play }) => {
   
           </button>
         </div>
-        <div className="titulo" style={{ textAlign: 'left' }}>
+        <div className="titulo">
           <strong className={comparar ? 'green' : ''}>{title}</strong>
           <p>{artist}</p>
         </div>
