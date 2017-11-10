@@ -1,6 +1,6 @@
 @import '_variables.scss';
 
-.btn {
+.album__buttons {
     color: $neutro !important;
     margin-top: 1em;
     display: inline-block;
@@ -17,22 +17,24 @@
     text-transform: uppercase;
     line-height: 1.6;
     outline: none !important;
-}
-.btn-green{
-    background-color: $ligth;
-    padding: 11px 44px 12px;
-    outline: none;
+
+    &--green{
+        background-color: $ligth;
+        padding: 11px 44px 12px;
+        outline: none;
+    }
+    
+    &--green:hover{
+        transform: scale(1.06);
+        transition-duration: .5s;
+        color: white;
+    }
+    &--transparent {
+        background-color: transparent;
+    }
 }
 
-.btn-green:hover{
-    transform: scale(1.06);
-    transition-duration: .5s;
-    color: white;
-}
-.btn.btn-transparent {
-    background-color: transparent;
-}
-.songs{
+.album__information--songs{
     color: hsla(0,0%,100%,.6);
     font-size: .73em;
     letter-spacing: 2px;

@@ -9,11 +9,11 @@ const ListSpotify = ({ playlist, currentIndex, play, follow }) => {
   return (
     <div className="container" style={{ color: 'white' }}>
       <div className='fondo'></div>
-      <div class="row" style={{ marginTop: '20px' }}>
-        <div class="col-md-3 col-lg-4">
+      <div className="row" style={{ marginTop: '20px' }}>
+        <div className="col-md-3 col-lg-4">
           <Album list={playlist.length} play={play} follow={follow} />
         </div>
-        <div class="col-md-9 col-lg-8 ">
+        <div className="col-md-9 col-lg-8 ">
           {
             playlist.map((a, index) => {
               return <List title={a.title} artist={a.artist} duration={a.duration} index={index + 1} currentIndex={currentIndex} play={play} />;
