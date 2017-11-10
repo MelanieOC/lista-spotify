@@ -10,8 +10,8 @@ const Album = ({ list, play, follow }) => {
       </div>
       <div className="album__information col-xs-8 col-md-12 col-lg-12 col-xl-8 ">
         <h2>ELECTRO BR</h2>
-        <p>By<b>Spotify</b></p>
-        <p className='album__information--songs'>{list} SONGS</p>
+        <p>By <b>Spotify</b></p>
+        <p className='songs'>{list} SONGS</p>
         <div>
           <button className='album__buttons album__buttons--green album__buttons--pause album__buttons--play ' onClick={() => changePlay()}>{play ? 'PAUSE' : 'PLAY'}</button>
           <div>
@@ -22,7 +22,6 @@ const Album = ({ list, play, follow }) => {
       </div>
     </div>
   );
-
 }
 
     
