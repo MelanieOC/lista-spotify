@@ -1,4 +1,4 @@
-.btn {
+.album__buttons {
   color: #ffffff !important;
   margin-top: 1em;
   display: inline-block;
@@ -17,23 +17,23 @@
   outline: none !important;
 }
 
-.btn-green {
+.album__buttons--green {
   background-color: #1db954;
   padding: 11px 44px 12px;
   outline: none;
 }
 
-.btn-green:hover {
+.album__buttons--green:hover {
   transform: scale(1.06);
   transition-duration: .5s;
   color: white;
 }
 
-.btn.btn-transparent {
+.album__buttons--transparent {
   background-color: transparent;
 }
 
-.songs {
+.album__information--songs {
   color: rgba(255, 255, 255, 0.6);
   font-size: .73em;
   letter-spacing: 2px;
