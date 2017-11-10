@@ -1,14 +1,7 @@
-.green {
-      color: $ligth;
-}
-
 .list {
     color: $neutro;
     width: 100%;
     display: flex;
-    &__id--green {
-        @extend .green;
-    }
     &__id {
         .list__play {
             background-color: transparent;
@@ -26,6 +19,9 @@
         text-align: right;
         position: absolute;
         right: 10px;
+    }
+    &--green{
+        color: $ligth;
     }
     &:hover {
         background: $dark;
