@@ -9,7 +9,7 @@ const List = ({ title, artist, duration, index, currentIndex, play }) => {
         <div className={comparar ? 'list__id list__id--green' : 'list__id'}>
           {
             comparar && play ?
-              <span className="glyphicon glyphicon-volume-up list__number green" aria-hidden="true"></span> :
+              <span className="glyphicon glyphicon-volume-up list__number" aria-hidden="true"></span> :
               <span className="list__number">{index}.</span>
           }
   

@@ -1,46 +1,52 @@
   .green {
-    color: $ligth;
-  }
-  
-  .list{
-    color: $neutro;
-    width: 100%;
-    display: flex;
-  }
-  .list:hover{
-    background: $dark;
-    opacity: 0.75;
-  }
-  
-  .list__play{
-    background-color: transparent;
-    border: none;
-    outline: none;
-    padding: 0;
-    margin: 0;
-  }
-  .list__id--green{
-    color: $ligth;
-  }
-  .list .list__play{
-   display: none;
-  }
-  .list:hover .list__play{
-   display: block;
-  }
-  .list:hover .list__number{
-    display: none;
-   }
-  .list__id, .list__title, .list__duration{ 
-   margin: 15px;
+      color: $ligth;
   }
 
-  .list__title {
-    text-align: left
+  @each $name in list__id,
+  list__title,
+  list__duration,
+  {
+      .#{$name} {
+          margin: 15px;
+      }
   }
-  
-  .list__duration{
-    text-align: right;
-    position: absolute;
-    right: 10px;
+
+  .list {
+      color: $neutro;
+      width: 100%;
+      display: flex;
+      .list__id--green {
+          color: $ligth;
+      }
+      .list__id {
+          .list__play {
+              background-color: transparent;
+              border: none;
+              outline: none;
+              padding: 0;
+              margin: 0;
+          }
+      }
+      .list__title {
+          text-align: left
+      }
+      .list__duration {
+          text-align: right;
+          position: absolute;
+          right: 10px;
+      }
+      &:hover {
+          background: $dark;
+          opacity: 0.75;
+          .list__number {
+              display: none;
+              @extend .green;
+          }
+      }
+      & .list__play {
+          display: none;
+      }
+      &:hover .list__play {
+          display: block;
+      }
   }
