@@ -6,10 +6,10 @@
     color: $neutro;
     width: 100%;
     display: flex;
-    .list__id--green {
-        color: $ligth;
+    &__id--green {
+        @extend .green;
     }
-    .list__id {
+    &__id {
         .list__play {
             background-color: transparent;
             border: none;
@@ -19,10 +19,10 @@
             display: none;
         }
     }
-    .list__title {
+    &__title {
         text-align: left
     }
-    .list__duration {
+    &__duration {
         text-align: right;
         position: absolute;
         right: 10px;
