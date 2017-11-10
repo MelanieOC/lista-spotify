@@ -82,4 +82,51 @@
   position: absolute;
   right: 10px; }
 
+.fondo {
+  background-image: linear-gradient(#812b17, #0c0402 85%);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  position: fixed;
+  will-change: transform; }
+
+.list {
+  color: #ffffff;
+  width: 100%;
+  display: flex; }
+
+.list:hover {
+  background: #2b231b;
+  opacity: 0.75; }
+
+.play {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0; }
+
+.green {
+  color: #1db954; }
+
+.list .play {
+  display: none; }
+
+.list:hover .play {
+  display: block; }
+
+.list:hover .number {
+  display: none; }
+
+.id, .titulo, .duracion {
+  margin: 15px; }
+
+.duracion {
+  text-align: right;
+  position: absolute;
+  right: 10px; }
+
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { nextSong, pause } from './actions.js';
+import './css/main.css';
 
 const List = ({ title, artist, duration, index, currentIndex, play }) => {
     const comparar = currentIndex === index - 1;
