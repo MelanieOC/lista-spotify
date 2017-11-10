@@ -64,18 +64,18 @@
   color: #ffffff;
   width: 100%;
   display: flex; }
-  .list .list__id--green {
+  .list__id--green {
     color: #1db954; }
-  .list .list__id .list__play {
+  .list__id .list__play {
     background-color: transparent;
     border: none;
     outline: none;
     padding: 0;
     margin: 0;
     display: none; }
-  .list .list__title {
+  .list__title {
     text-align: left; }
-  .list .list__duration {
+  .list__duration {
     text-align: right;
     position: absolute;
     right: 10px; }
