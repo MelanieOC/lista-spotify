@@ -85,15 +85,6 @@
 .green, .list:hover .list__number {
   color: #1db954; }
 
-.list__id {
-  margin: 15px; }
-
-.list__title {
-  margin: 15px; }
-
-.list__duration {
-  margin: 15px; }
-
 .list {
   color: #ffffff;
   width: 100%;
@@ -105,7 +96,8 @@
     border: none;
     outline: none;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    display: none; }
   .list .list__title {
     text-align: left; }
   .list .list__duration {
@@ -117,9 +109,16 @@
     opacity: 0.75; }
     .list:hover .list__number {
       display: none; }
-  .list .list__play {
-    display: none; }
-  .list:hover .list__play {
-    display: block; }
+    .list:hover .list__play {
+      display: block; }
+
+.list__id {
+  margin: 15px; }
+
+.list__title {
+  margin: 15px; }
+
+.list__duration {
+  margin: 15px; }
 
 /*# sourceMappingURL=main.css.map */
